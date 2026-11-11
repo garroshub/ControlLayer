@@ -1,0 +1,12 @@
+{
+  "model": "qwen3.5:4b-q4_K_M",
+  "served_model_digest": "d8b0f5e9760cd1682034f292d7ef72ec46f432149be0df7574bf2d6e92e38c04",
+  "local_wrapper_manifest_sha256": "0bfd9b30a103a15f8293afaf1846a5073890afad5248553f3ea978626372c586",
+  "ollama_version": "0.40.14",
+  "context_length": 8192,
+  "parallel_requests": 1,
+  "temperature": 0,
+  "top_p": 0.9,
+  "actor_request_budget": 24,
+  "episode_deadline_seconds": 285
+}

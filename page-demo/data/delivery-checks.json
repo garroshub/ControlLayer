@@ -1,0 +1,42 @@
+{
+  "verification_environment": {
+    "python": "3.12",
+    "os": "Windows",
+    "dependencies": "requirements.lock.txt; fresh venv; pip check clean",
+    "installation": "non-editable wheel built from independently extracted source"
+  },
+  "native_regressions": {
+    "passed": 9,
+    "failed": 0
+  },
+  "recorded_response_parity": {
+    "episodes": 302,
+    "passed": 302,
+    "scope": "Saved historical responses; no new inference",
+    "normalization": "Actual native observation timestamps and participant ordering only; calls, arguments and scores exact"
+  },
+  "demo": {
+    "desktop": "1280x1000",
+    "mobile": "390x844",
+    "case_tabs_passed": 3,
+    "javascript_errors": 0,
+    "mobile_horizontal_overflow": false,
+    "network_assets": false
+  },
+  "public_content_review": {
+    "independent_decision_classifier": false,
+    "model_weights": false,
+    "private_conversations_or_states": false,
+    "agent_or_skill_instructions": false,
+    "internal_development_tools": false
+  },
+  "assessment": "Author-side validation informed by ACM artifact criteria and NIST AI RMF; no certification.",
+  "local_model_smoke": {
+    "episodes": 6,
+    "candidate_successes": 3,
+    "baseline_successes": 0,
+    "candidate_final_state_matches_reviewed_reference": 3,
+    "all_arms_final_state_matches": 5,
+    "owned_service_stopped": true
+  }
+}

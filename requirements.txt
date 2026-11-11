@@ -1,0 +1,6 @@
+agentdojo==0.1.35
+openai==3.46.0
+pydantic==2.14.2
+requests==2.34.2
+PyYAML==6.0.3
+z3-solver==5.3.3.0

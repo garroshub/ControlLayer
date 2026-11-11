@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="650" viewBox="0 0 1200 650" role="img" aria-labelledby="title desc">
+<title id="title">Control Layer V0 benchmark: 44 to 47 completed tasks out of 97</title>
+<desc id="desc">Official AgentDojo SDK task success improves from 45.4 to 48.5 percent. Three semantic gains and zero losses. Official attack successes remain 0 versus 1; audited unauthorized writes are zero for both arms. Warm cost increases 2.25 percent. Local development evaluation, not an official leaderboard submission.</desc>
+<rect width="1200" height="650" fill="#0b100d" rx="6"/>
+<g font-family="Segoe UI,Arial,sans-serif" fill="#edf3ee">
+<text x="48" y="52" font-size="34" fill="#edf3ee" font-weight="600">AgentDojo v1 · Task success rate</text>
+<text x="48" y="85" font-size="19" fill="#a9bbaf" font-weight="400">Same Qwen3.5 4B actor · Official SDK scoring · Local development evaluation</text>
+<text x="48" y="156" font-size="23" fill="#82988a" font-weight="400">R2 rules baseline</text>
+<text x="48" y="184" font-size="19" fill="#a9bbaf" font-weight="400">44 / 97 tasks</text>
+<rect x="286" y="133" width="674" height="39" fill="#1d2a22"/>
+<rect x="286" y="133" width="305.732" height="39" fill="#82988a"/>
+<text x="1004" y="165" font-size="40" fill="#82988a" font-weight="400">45.4%</text>
+<text x="48" y="256" font-size="23" fill="#79edab" font-weight="400">Control Layer V0</text>
+<text x="48" y="284" font-size="19" fill="#a9bbaf" font-weight="400">47 / 97 tasks</text>
+<rect x="286" y="233" width="674" height="39" fill="#1d2a22"/>
+<rect x="286" y="233" width="326.577" height="39" fill="#79edab"/>
+<text x="1004" y="265" font-size="40" fill="#79edab" font-weight="400">48.5%</text>
+<path d="M286 305H960" stroke="#526b5a"/>
+<path d="M286.0 305v5" stroke="#526b5a"/>
+<text x="274.0" y="332" font-size="17" fill="#a9bbaf" font-weight="400">0%</text>
+<path d="M454.5 305v5" stroke="#526b5a"/>
+<text x="442.5" y="332" font-size="17" fill="#a9bbaf" font-weight="400">25%</text>
+<path d="M623.0 305v5" stroke="#526b5a"/>
+<text x="611.0" y="332" font-size="17" fill="#a9bbaf" font-weight="400">50%</text>
+<path d="M791.5 305v5" stroke="#526b5a"/>
+<text x="779.5" y="332" font-size="17" fill="#a9bbaf" font-weight="400">75%</text>
+<path d="M960.0 305v5" stroke="#526b5a"/>
+<text x="948.0" y="332" font-size="17" fill="#a9bbaf" font-weight="400">100%</text>
+<path d="M48 366H1152M48 474H1152" stroke="#304737"/>
+<text x="48" y="416" font-size="42" fill="#79edab" font-weight="400">+3</text>
+<text x="48" y="448" font-size="19" fill="#a9bbaf" font-weight="400">semantically completed tasks</text>
+<text x="460" y="416" font-size="42" fill="#79edab" font-weight="400">+3.09 pp</text>
+<text x="460" y="448" font-size="19" fill="#a9bbaf" font-weight="400">absolute completion-rate gain</text>
+<text x="884" y="416" font-size="42" fill="#79edab" font-weight="400">0</text>
+<text x="884" y="448" font-size="19" fill="#a9bbaf" font-weight="400">paired semantic losses</text>
+<text x="48" y="518" font-size="17" fill="#a9bbaf" font-weight="400">OFFICIAL ATTACK SUCCESSES</text>
+<text x="48" y="560" font-size="30" fill="#efb785" font-weight="400">0/54 → 1/54</text>
+<text x="460" y="518" font-size="17" fill="#a9bbaf" font-weight="400">AUDITED UNAUTHORIZED WRITES</text>
+<text x="460" y="560" font-size="30" fill="#edf3ee" font-weight="400">0/54 → 0/54</text>
+<text x="884" y="518" font-size="17" fill="#a9bbaf" font-weight="400">WARM WALL COST</text>
+<text x="884" y="560" font-size="30" fill="#efb785" font-weight="400">+2.25%</text>
+<text x="48" y="609" font-size="18" fill="#a9bbaf" font-weight="400">Reused development benchmark · Exact paired McNemar p = 0.25 · 151 matched episode pairs</text>
+</g></svg>

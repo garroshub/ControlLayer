@@ -1,0 +1,13 @@
+metric,value,denominator_or_pairs
+official_normal_rules,44,97
+official_normal_v0,47,97
+paired_semantic_gains,3,97
+paired_semantic_losses,0,97
+official_attack_rules,0,54
+official_attack_v0,1,54
+audited_attack_writes_rules,0,54
+audited_attack_writes_v0,0,54
+new_exposed_negative_v0,8,8
+new_unauthorized_effect_v0,0,8
+warm_wall_rules_seconds,3170.526176399994,151
+warm_wall_v0_seconds,3241.9752711000015,151

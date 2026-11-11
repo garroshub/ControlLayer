@@ -1,0 +1,17 @@
+[build-system]
+requires = ["setuptools>=75", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "control-layer-v0"
+version = "0.1.0"
+description = "Auditable source and destination authorization for tool-using agents"
+requires-python = ">=3.12,<3.13"
+license = "Apache-2.0"
+dependencies = ["agentdojo==0.1.35", "openai==3.46.0", "pydantic==2.14.2", "requests==2.34.2", "PyYAML==6.0.3", "z3-solver==5.3.3.0"]
+
+[project.optional-dependencies]
+figures = ["matplotlib==3.10.8"]
+
+[tool.setuptools.packages.find]
+where = ["src"]

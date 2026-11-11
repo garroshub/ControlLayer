@@ -1,0 +1,65 @@
+{
+  "transformation": "Package-relative imports, module relocation, removed development comments/docstrings and unused semantic_audit helper. Runtime feedback strings retained as behavior.",
+  "files": {
+    "src/control_layer_v0/_runtime/scoping/candidate_runtime.py": {
+      "evaluated_source_sha256": "2ca96a360a273ac68b8db6d11f847e2c6a8dc5db8032e2087d89ad47215bfc4f",
+      "release_source_sha256": "e1d132111f0918e8ff47570024795a052e2d958fe3b914eed983dcc6c7766f23"
+    },
+    "src/control_layer_v0/_runtime/scoping/scoped_decision.py": {
+      "evaluated_source_sha256": "096cac3e4c2c6b19f2ae098219a4d28192ccf0dafbf417aec55bb0d6d197e299",
+      "release_source_sha256": "fcd1a51113dc87058cd1e21b3db42620e5fa5e4cf59d3e6462a6ef8bba798225"
+    },
+    "src/control_layer_v0/_runtime/provenance/runtime.py": {
+      "evaluated_source_sha256": "d23f3ec59ac4bcc1a9ca4d6593a0ca5e451a2801ceec74efeb3379d4aebecbf4",
+      "release_source_sha256": "5a60cd3ab532b03e6ae49cb7bc40f0dd822ba7b939f063769edfec6053fae752"
+    },
+    "src/control_layer_v0/_runtime/provenance/provenance.py": {
+      "evaluated_source_sha256": "3f8676e4e932ba0b80899f222c3da4d69efb42c816cc13f99fd6772d8337bfdd",
+      "release_source_sha256": "25fcb7284484e9d8d66b58ec8cdbd665a28d08e78af111c3fff29a15123278b4"
+    },
+    "src/control_layer_v0/_runtime/scope/checks.py": {
+      "evaluated_source_sha256": "dc0f81b52534df1acd0ca65f5c373443406b882eb9a406c75dd966a2cad5ca52",
+      "release_source_sha256": "4daa25d82f2ab19313a954ddf9d8f1eb656cd23dbf8d484908fbd13be04d2763"
+    },
+    "src/control_layer_v0/_runtime/scope/core.py": {
+      "evaluated_source_sha256": "cfdf4a1bed8fd2c3c2f1f411dcb77eb9be6c5a1e04ba39b91cdd288cab91d8e4",
+      "release_source_sha256": "87fc3313ff2485a94a26d03ab159e54f1aa323cb143f16c757e3bf739aab8c0d"
+    },
+    "src/control_layer_v0/_runtime/scope/v3_runtime.py": {
+      "evaluated_source_sha256": "2e9c0ef205739b4d7c65f433d771d083dd8d2cbfa153849c5346e9dcf29083b8",
+      "release_source_sha256": "34d378c36be0fb384cb566600d141bf1ffc149db7e29ad8fa1f9ebe84809a8d6"
+    },
+    "src/control_layer_v0/_runtime/contracts/url_contract.py": {
+      "evaluated_source_sha256": "a0983aa4265708cdb8fe517f0ad71256081d7759d989e99462bf5907b36a86f9",
+      "release_source_sha256": "99315721d98d39614db51d9fe849fa2efdac93596596752b942dde8aecd89752"
+    },
+    "src/control_layer_v0/_runtime/contracts/reschedule_contract.py": {
+      "evaluated_source_sha256": "7e85b98e8dde4f3ec7859944e4412fa35863b4703f173f667a209e79f3bf3129",
+      "release_source_sha256": "a21bbd1bd506c748ef6d378042fbecdc041864d6863d8278e6b191fff62bd7ea"
+    },
+    "src/control_layer_v0/_runtime/contracts/r3_runtime.py": {
+      "evaluated_source_sha256": "ea8fb8a6567727fb90581f31cd6b6959f1bc5d02311d3f5f0e6859e11801ed44",
+      "release_source_sha256": "a20265ee1fc1e0350ddf1c6c2373311d49823a03ecd2a873f51cca6ceedf863d"
+    },
+    "src/control_layer_v0/_runtime/invitation/invitation.py": {
+      "evaluated_source_sha256": "6d1e08abdc71cbe25c54af0a26b295b800f8d85921cddc65bec19c16d9c16ecb",
+      "release_source_sha256": "5ea3774e0b9f3b8ee2ff96fa32b02ec43a628fc361413cc2235ce5196f9e4c13"
+    },
+    "src/control_layer_v0/_runtime/invitation/r5_runtime.py": {
+      "evaluated_source_sha256": "a67b1f720937c98b660735db2739f61c6f8d986d70672d5bbc10a6de9db91553",
+      "release_source_sha256": "b5598721fd8d2974a8ec24f766cfe44fb5e6ee120e62ff67a4e37550e1075622"
+    },
+    "src/control_layer_v0/_runtime/identity/r6_runtime.py": {
+      "evaluated_source_sha256": "a4a094ae854babd2527a83fcd92a634b788263b4a4a68b119bc0a2b6878cbb89",
+      "release_source_sha256": "7b96af89b741b9b8624dc74a16b5714378a115f0eb89b2da440edc2cc43cde04"
+    },
+    "src/control_layer_v0/_runtime/deletion/slack_removal.py": {
+      "evaluated_source_sha256": "6ada85c558b9d200bdd2d58776481169a25f13973835c92a932366740a45ed1e",
+      "release_source_sha256": "452185b8e06c8b514a7cad3e692bb5c66cf9132d55be1ca7656aefb9063650a7"
+    },
+    "src/control_layer_v0/_runtime/channel/channel_runtime.py": {
+      "evaluated_source_sha256": "c84f9bc867b6919e66796da1b16972c965e8a4bad4a605f6853a234ef6dc89de",
+      "release_source_sha256": "3b8b467004d6b99a92a150550ab47ffa10841f8a50bf3365d5628994479b885b"
+    }
+  }
+}

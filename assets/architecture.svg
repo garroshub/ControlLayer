@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="390" viewBox="0 0 1200 390" role="img" aria-labelledby="title desc">
+<title id="title">Control Layer V0 authorization flow</title><desc id="desc">Trusted requests compile bounded contracts. Proposed tool calls pass policy, target, content and source checks before execution. Application reads provide source evidence. Events and state are recorded.</desc>
+<rect width="1200" height="390" fill="#f4f7f9" rx="16"/>
+<g font-family="Segoe UI,Arial,sans-serif" fill="#243b4b"><text x="48" y="53" font-size="28" font-weight="700">Authorization checks before tool execution</text>
+<rect x="48" y="100" width="230" height="90" rx="9" fill="#fff" stroke="#a8bbc8"/><text x="68" y="137" font-size="22" font-weight="600">Trusted request</text><text x="68" y="168" font-size="17">Bounded command parser</text>
+<path d="M278 145 H342" stroke="#52768c" stroke-width="3"/><path d="m332 139 10 6-10 6" fill="none" stroke="#52768c" stroke-width="3"/>
+<rect x="342" y="100" width="350" height="140" rx="9" fill="#e2f0eb" stroke="#287b66"/><text x="363" y="136" font-size="23" font-weight="700">Execution gate</text><text x="363" y="170" font-size="18">Policy · identity · destination</text><text x="363" y="198" font-size="18">Permitted content · source binding</text><text x="363" y="225" font-size="17">One successful channel send</text>
+<path d="M692 145 H754" stroke="#287b66" stroke-width="3"/><path d="m744 139 10 6-10 6" fill="none" stroke="#287b66" stroke-width="3"/>
+<rect x="754" y="100" width="185" height="90" rx="9" fill="#fff" stroke="#a8bbc8"/><text x="775" y="138" font-size="22" font-weight="600">Native tools</text><text x="775" y="169" font-size="17">Application state</text>
+<path d="M939 145 H986" stroke="#52768c" stroke-width="3"/><path d="m976 139 10 6-10 6" fill="none" stroke="#52768c" stroke-width="3"/>
+<rect x="986" y="100" width="168" height="90" rx="9" fill="#fff" stroke="#a8bbc8"/><text x="1005" y="138" font-size="22" font-weight="600">Audit</text><text x="1005" y="169" font-size="17">Calls + state</text>
+<rect x="48" y="267" width="230" height="70" rx="9" fill="#e8eef4" stroke="#7797b1"/><text x="68" y="308" font-size="20">Actor proposes a call</text><path d="M278 302 H387 V240" fill="none" stroke="#52768c" stroke-width="3"/>
+<rect x="754" y="267" width="400" height="70" rx="9" fill="#fff0db" stroke="#bd9151"/><text x="775" y="308" font-size="18">Source evidence from protected host reads</text><path d="M754 302 H642 V240" fill="none" stroke="#bd9151" stroke-width="3"/>
+<text x="48" y="368" font-size="16" fill="#657888">Task-specific authorization and deterministic checks. Source text supplies evidence, while the trusted request supplies authority.</text></g></svg>
