@@ -6,11 +6,21 @@
 
 **A Python runtime for checking user authorization before an agent executes a tool call.**
 
+<p align="center">
+  <a href="https://garroshub.github.io/ControlLayer/page-demo/"><img src="assets/readme/button-demo.svg" height="44" alt="Launch project demo"></a>
+  <a href="src/control_layer_v0/runtime.py"><img src="assets/readme/button-api.svg" height="44" alt="Explore Python API"></a>
+  <a href="#install"><img src="assets/readme/button-install.svg" height="44" alt="Get started with installation"></a>
+</p>
+<p align="center">
+  <a href="docs/measurement.md"><img src="assets/readme/button-methodology.svg" height="44" alt="Read evaluation methodology"></a>
+  <a href="src/control_layer_v0/"><img src="assets/readme/button-source.svg" height="44" alt="View source code"></a>
+  <a href="LICENSE"><img src="assets/readme/button-license.svg" height="44" alt="MIT License"></a>
+</p>
+
 I am a decision scientist, and this is my first AI safety project. The work examines how authorization rules affect task completion, unauthorized actions and execution cost.
 
 **Developing.** V0 uses deterministic authorization checks. Planned work will test whether a decision model can recover additional legitimate tasks or reduce execution cost.
 
-[Install](#install) · [Benchmark](#benchmark) · [Interactive page](https://garroshub.github.io/ControlLayer/page-demo/) · [Developing](#developing) · [Measurement and limits](docs/measurement.md)
 
 ## Benchmark
 
@@ -130,4 +140,10 @@ The [ACM/NIST artifact mapping](docs/artifact-assessment.md) is an author-side s
 
 </details>
 
-First-party code is [Apache-2.0](LICENSE). Dependency, simulator and model notices are recorded in [NOTICE.md](NOTICE.md).
+First-party code is [MIT](LICENSE). Dependency, simulator and model notices are recorded in [NOTICE.md](NOTICE.md).
+
+## Star History
+
+[![GitHub stars](https://img.shields.io/github/stars/garroshub/ControlLayer?style=flat-square&label=GitHub%20stars)](https://github.com/garroshub/ControlLayer/stargazers)
+
+[![Star History](https://api.star-history.com/svg?repos=garroshub/ControlLayer&type=Date)](https://star-history.com/#garroshub/ControlLayer&Date)
